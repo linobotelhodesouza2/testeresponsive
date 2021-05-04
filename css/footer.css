@@ -1,0 +1,15 @@
+.copyright{
+	padding: 2%;
+	margin: auto;
+	bottom: 0;
+	text-align: center;
+}
+.footer /* define o footer da pagina fundo*/
+{
+
+	background: #51c4d3;
+	height: 100px;
+}
+.footer p{
+	color: white;
+}

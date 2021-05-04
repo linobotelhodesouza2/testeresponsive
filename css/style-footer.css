@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+html
+{
+	scroll-behavior: smooth;/* faz com que o link clicado leve a pagina ate aonde se quer se clicar no home e tiver no final da pagina ela voltara para o inicio*/
+}
+
+body
+{
+	min-height: 1000px;
+}
+/***********************************************************************/
+/*footer*/
+.copyright{
+	padding: 2%;
+	margin: auto;
+	bottom: 0;
+	text-align: center;
+}
+.footer /* define o footer da pagina fundo*/
+{
+	background: red;
+}
+}
+	.sci
+	{
+		margin-right: 10px;
+	}
+	.sci ul li a img
+	{
+		font-size: 24px;
+		margin-right: 10px;
+	}
+	h3
+	{
+		font-size: 36px;
+	}
+}

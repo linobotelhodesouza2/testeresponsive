@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+html
+{
+	scroll-behavior: smooth;/* faz com que o link clicado leve a pagina ate aonde se quer se clicar no home e tiver no final da pagina ela voltara para o inicio*/
+}
+
+body
+{
+	min-height: 500px;
+}
+/***********************************************************************/
+
+
+/***********************************************************************/
+.contact
+{
+	
+	background: black;
+}
+.contact h3,
+.contact p
+{
+	color: #fff;
+}
+.contactForm
+{
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.contactForm form
+{
+	width: 100%
+}
+.contactForm .row100
+{
+	display: flex;
+	width: 90%;/* linhas do form */
+}
+.contactForm .row100 .inputBx50
+{
+	width: 50%;
+	margin: 0 20px;
+}
+.contactForm .row100 .inputBx100
+{
+	width: 100%;
+	margin: 0 20px;
+}
+.contactForm .row100 input,
+.contactForm .row100 textarea
+{
+	position: relative;
+	border:none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	background: transparent;
+	width: 100%;
+	padding: 10px 0;
+	outline: none;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 15px 0;
+	resize: none;
+}
+.contacForm .row100 textarea
+{
+	height: 100px;
+}
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textraea::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+.contactForm .row100 input[type="submit"]
+{
+	background: #fff;
+	color: #000;
+	max-width: 100px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+
+/***********************************************************************/
+/*footer*/
+.copyright{
+	padding: 2%;
+	margin: auto;
+	bottom: 0;
+	text-align: center;
+}
+.footer /* define o footer da pagina fundo*/
+{
+	background: red;
+}
+
+
+/***********************************************************************/
+.sci
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+	padding-top: 0; 
+}
+.sci ul
+{
+	display: flex;
+}
+.sci ul li
+{
+	list-style: none;
+}
+.sci ul li a
+{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 50px;	
+}
+.sci ul li a img
+{
+	filter: invert(1);/* colocando os icones que estavam atras invertendo jogando pra frente */
+	max-width: 30px;
+}
+.sci ul li a:hover img
+{
+	opacity: 0.5;
+}
+.copyright 
+{ 
+	font-size: 15px;
+	color: #fff;
+}
+.toogle
+{
+	display: none;
+}
