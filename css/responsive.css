@@ -547,7 +547,14 @@
    position: relative;
    background-repeat: no-repeat;
 }
-
+.sec{
+	background: #fff;
+	padding: 90px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
   .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -665,8 +672,6 @@
    position: relative;
    background-repeat: no-repeat;
 }
-
- 
 .statsBox{
 		position: relative;
 		display: inline-block;
@@ -677,7 +682,6 @@
 		margin: 80px;
 		border: 1px solid red;
 	}
-
   .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -685,13 +689,11 @@
 	padding: 20px;
 	grid-gap: 10px;
    }
-
   .gallery__img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
    }
-
    .gallery__item:nth-child(1) {
 	grid-column-start: span 3;
 	grid-row-start: span 2; 
@@ -756,7 +758,6 @@
 	grid-column-start: span 3;
 	grid-row-start: span 2; 
    }
-
 .wat a{
 	position:fixed;
 	width:60px;
@@ -772,8 +773,7 @@
 	z-index:1000;
 }
 .contact
-{
-	
+{	
 	background: black;
 }
 .contact h3,
@@ -789,7 +789,6 @@
 	margin: 0 auto;
 	display: flex;
 }
-
 .contactForm form
 {
 	width: 100%
@@ -872,4 +871,60 @@
 	width: 100%;
 	}
 }
+/***********************************************************************/
+@media(max-width: 414px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 16%;
+  }
 
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: contain;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
+/***********************************************************************/
+@media(max-width: 375px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 18%;
+  }
+
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: contain;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
+/***********************************************************************/
+@media(max-width: 320px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 16%;
+  }
+
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: contain;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
